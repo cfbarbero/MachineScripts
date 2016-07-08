@@ -9,4 +9,6 @@ First ensure that chocolatey is installed:
 Next run the following to install packages
 ```sh
 cinst awscli ConEmu GoogleChrome greenshot HipChat lastpass linqpad notepadplusplus windirstat -y
+cinst git -params '"/GitAndUnixToolsOnPath /NoAutoCrlf"' -y
+cinst poshgit -y
 ```
